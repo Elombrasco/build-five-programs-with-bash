@@ -76,3 +76,4 @@ echo hello bash
 rm questionnaire.sh
 touch questionnaire.sh
 sh questionnaire.sh
+bash questionnaire.sh
