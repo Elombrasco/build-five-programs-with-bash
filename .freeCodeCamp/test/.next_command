@@ -302,3 +302,6 @@ type then
 type bash
 type psql
 type ./five.sh
+git init
+git add.
+git add .
