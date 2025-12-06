@@ -165,3 +165,4 @@ help
 ./countdown.sh 5
 ./countdown.sh 10
 help
+ls --color=auto /
