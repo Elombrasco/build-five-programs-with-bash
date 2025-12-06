@@ -80,3 +80,6 @@ bash questionnaire.sh
 which bash
 bash questionnaire.sh
 bash questionnaire.sh
+./ questionnaire.sh
+clear
+./questionnaire.sh
