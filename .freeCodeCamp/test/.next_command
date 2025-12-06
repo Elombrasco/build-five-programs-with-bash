@@ -249,3 +249,4 @@ declare -p
 decalre -p $ARR
 decalre -p ARR
 declare -p ARR
+./fortune.sh
