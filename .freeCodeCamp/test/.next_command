@@ -204,3 +204,5 @@ echo $J
 decalre -p
 declare -p
 declare -p J
+decalre -p RANDOM
+declare -p RANDOM
