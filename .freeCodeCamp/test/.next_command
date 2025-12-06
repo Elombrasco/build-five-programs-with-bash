@@ -227,3 +227,4 @@ help let
 clear
 touch fortune.sh
 chmod +x fortune.sh
+./fortune.sh
