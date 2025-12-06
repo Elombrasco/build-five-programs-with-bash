@@ -1,96 +1,104 @@
 ## Build Five Programs with Bash — freeCodeCamp Project
 
-This repository contains my solutions for the freeCodeCamp "Build Five Programs with Bash" course, completed inside a Linux environment using GitHub Codespaces.
-The goal of this course is to learn and practice essential Bash commands, file manipulation, scripting, and automation techniques through five small terminal-based programs.
+This repository contains my completed project for the freeCodeCamp “Build Five Programs with Bash” course.
+All work was completed inside a Linux environment using GitHub Codespaces and includes all required files for automated testing.
 
-🚀 Project Overview
+📁 Repository Contents
 
-Throughout this 220-lesson workshop, I built five Bash programs that demonstrate:
+This project includes all the scripts and configuration files needed by freeCodeCamp:
 
-***Working with Linux filesystem commands***
+├── .freeCodeCamp           # Required FCC configuration
 
-***Creating, editing, and executing Bash scripts***
+├── .vscode                 # Editor settings (provided by Codespaces)
 
-**Using conditionals (if, elif, else)**
+├── .gitignore              # Git ignored files
 
-***Using loops (for, while, until)***
+├── README.md               # Project documentation
 
-***Reading and writing files***
+├── bingo.sh                # Program #1
 
-***Handling user input***
+├── countdown.sh            # Program #2
 
-***Using exit codes and functions***
+├── five.sh                 # Program #3
 
-***Automating tasks from the terminal***
+├── fortune.sh              # Program #4
 
-All solutions are created and tested in a virtual Linux machine provided by freeCodeCamp.
-
-📂 Project Structure
-build-five-programs-with-bash/
-│
-├── program1.sh
-├── program2.sh
-├── program3.sh
-├── program4.sh
-├── program5.sh
-│
-└── README.md
+└── questionnaire.sh        # Program #5
 
 
-Note: Filenames may differ depending on your implementation.
-The important part is that each of the five Bash projects is included.
+Each script was written following the instructions in the CodeRoad interface within freeCodeCamp’s interactive workshop.
 
-🧰 Technologies Used
+🧾 **Project Description**
 
-**Bash**
+In this project, I built five Bash scripts, each designed to teach and reinforce skills including:
 
-**GNU Core Utilities**
+***Shell commands***
 
-**Git / GitHub**
+Conditionals (if, elif, else)
 
-**GitHub Codespaces**
+Loops (for, while, until)
 
-**VS Code**
+User input with read
 
-**Linux Terminal**
+Functions
 
-📘 How to Run the Programs
+File I/O
 
-Clone the repository:
+Basic text processing
+
+Permissions and execution (chmod +x)
+
+These scripts form the core exercises of the course.
+
+🔧 ***How to Run the Programs***
+
+Clone this repository:
 
 git clone git@github.com:Elombrasco/build-five-programs-with-bash.git
-
-
-Navigate to the project folder:
-
 cd build-five-programs-with-bash
 
 
-Make scripts executable:
+***Make the scripts executable:***
 
 chmod +x *.sh
 
 
-Run any program:
+Run any program, for example:
 
-./program1.sh
+./bingo.sh
 
 
-(Or replace with the correct program filename.)
+or:
 
-📝 About the Course
+./countdown.sh
+./five.sh
+./fortune.sh
+./questionnaire.sh
 
-The course is designed to help learners:
+📘 About Each Program
+🎯 **bingo.sh**
 
-Understand how Bash works in real Linux environments
+A simple number-matching game demonstrating random numbers, loops, and conditional logic.
 
-Write scripts to automate tasks
+⏳**countdown.sh**
 
-Strengthen comfort with the command line
+Counts down from a number chosen by the user.
+Uses loops and time-based commands like sleep.
 
-Prepare for other DevOps, Linux, and scripting projects
+5️⃣ **five.sh**
 
-This repository contains my full progress and final solutions.
+A script that prints the number five using Bash syntax.
+A fun exercise in output formatting.
+
+🔮 **fortune.sh**
+
+Displays a random message from a set of possible fortunes.
+Uses arrays and random indexing.
+
+❓ **questionnaire.sh**
+
+Asks the user questions, collects input, and prints results.
+Reinforces read, variables, and multi-step interaction.
 
 👤 Author
 
