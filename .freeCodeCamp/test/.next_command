@@ -84,3 +84,4 @@ bash questionnaire.sh
 clear
 ./questionnaire.sh
 ls --color=auto -l
+chmod +x questionnaire.sh
