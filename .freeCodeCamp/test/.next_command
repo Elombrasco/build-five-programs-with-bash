@@ -232,3 +232,16 @@ ARR=("a" "b" "c")
 echo $ARR[1]
 echo {$ARR[1]}
 echo ${ARR[1]}
+echo $*
+echo countdown.sh bingo.sh countdown.sh fortune.sh questionnaire.sh
+echo countdown.sh $*
+echo $*
+echo @*
+clear
+echo $@
+echo $@
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+clear
+echo ${ARR[@]}
