@@ -105,3 +105,6 @@ man echo
 ./questionnaire.sh
 clear
 touch countdown.sh
+ls --color=auto -l$
+ls --color=auto -l
+chmod +x countdown.sh
