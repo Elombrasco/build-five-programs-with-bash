@@ -260,3 +260,5 @@ help until
 ./fortune.sh
 help test
 help [[
+[[ -n ... ]]
+[[ hello == hello ]]
