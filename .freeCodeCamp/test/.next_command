@@ -83,3 +83,4 @@ bash questionnaire.sh
 ./ questionnaire.sh
 clear
 ./questionnaire.sh
+ls --color=auto -l
